@@ -1,11 +1,11 @@
-const changingText = document.getElementById('changingText');
-const words = ['Homes', 'Offices', 'Apartments', 'Event Centers', 'Churches', 'Mosques', 'Business Centres'];
-let index = 0;
+var changingText1 = document.getElementById('other');
+var word = ['Home', 'Office', 'Religious Center', 'Event', ];
+var indexx = 0;
 
-function changeText() {
-    changingText.textContent = `Enjoy Your ${words[index]} Totally Pest Free`;
-    changingText.style.color = 'yellow';
-    index = (index + 1) % words.length;
+function changeeText() {
+    changingText1.textContent = `Make your ${word[indexx]} pest free for as low as ₦5000`;
+    changingText1.style.color = index % 2 === 0 ? '#FDF001' : 'white';
+    indexx = (indexx + 1) % word.length;
 }
 
-setInterval(changeText, 800);
+setInterval(changeeText, 800);
