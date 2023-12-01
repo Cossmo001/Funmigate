@@ -1,5 +1,5 @@
 var colorizer = document.getElementById('colorizer');
-var word = ['Home', 'Office', 'ReligiousCenter', 'EventCenter']
+var word = ['Home', 'Office', 'Religious Center', 'Event Center']
 var indexx = 0;
 
 function changeeColor() {
