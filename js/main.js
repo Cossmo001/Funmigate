@@ -101,7 +101,8 @@
 // check initial orientation
 
 if (window.matchMedia("(oriention:portrait)").matches){
-    console.log("Change to landscape");
+    // console.log("Change to landscape");
+    alert("Change to landscape mode");
 } else{
     console.log("");
 }
