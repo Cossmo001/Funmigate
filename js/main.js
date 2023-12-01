@@ -1,3 +1,12 @@
+
+// check initial orientation
+
+if (window.matchMedia("(oriention: landscape)").matches){
+    // console.log("Change to landscape");
+    this.alert("Better!!!");
+} else {
+    this.alert("Change to landscape mode");
+}
 (function ($) {
     "use strict";
 
@@ -97,22 +106,3 @@
 })(jQuery);
 
 
-
-// check initial orientation
-
-if (window.matchMedia("(oriention: portrait)").matches){
-    // console.log("Change to landscape");
-    alert("Change to landscape mode");
-} else{
-    console.log("");
-}
-
-// listen for orientation change
-
-window.addEventListener("orientationchange", function(){
-    if (window.matchMedia("(oriention: portrait)").matches){
-        this.alert("Changed to portrait mode");
-    } else {
-        this.alert("Changed to landscape mode");
-    }
-})
