@@ -60,7 +60,7 @@ document.getElementById("contact-form").addEventListener("button", function(even
 
 // Room types based on building selection
 const roomOptions = {
-Residential: ['Bedroom', 'Living Room', 'Kitchen', 'Bathroom'],
+Residential: onclick['Bedroom', 'Living Room', 'Kitchen', 'Bathroom'],
 Commercial: ['Office', 'Conference Room', 'Reception Area'],
 Industrial: ['Factory Floor', 'Warehouse', 'Office'],
 Institutional: ['Classroom', 'Library', 'Laboratory', 'Administrative Office', 'Auditorium'],

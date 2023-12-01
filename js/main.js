@@ -96,3 +96,15 @@
 
 })(jQuery);
 
+
+
+// check initial orientation
+
+if (window.matchMedia("(oriention:portrait)").matches){
+    console.log("Change to landscape");
+} else{
+    console.log("");
+}
+
+// listen for orientation change
+
