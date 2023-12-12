@@ -60,7 +60,7 @@ document.getElementById("contact-form").addEventListener("button", function(even
 
 // Room types based on building selection
 const roomOptions = {
-Residential: onclick['Bedroom', 'Living Room', 'Kitchen', 'Bathroom'],
+Residential: ['Bedroom', 'Living Room', 'Kitchen', 'Bathroom'],
 Commercial: ['Office', 'Conference Room', 'Reception Area'],
 Industrial: ['Factory Floor', 'Warehouse', 'Office'],
 Institutional: ['Classroom', 'Library', 'Laboratory', 'Administrative Office', 'Auditorium'],
@@ -70,7 +70,6 @@ Religious: ['Sanctuary', 'Chapel', 'Meeting Hall', 'Office', 'Classroom', 'Libra
 SportsFacility: ['Gymnasium', 'Locker Room', 'Swimming Pool', 'Tennis Court', 'Basketball Court', 'Indoor Track', 'Fitness Studio', 'Meeting Room', 'Reception Area'],
 HotelResort: ['Standard Room', 'Suite', 'Deluxe Room', 'Restaurant', 'Bar/Lounge', 'Spa', 'Pool Area', 'Gym/Fitness Center', 'Conference Room', 'Reception Area', 'Courtyard/Garden'],
 EventCenter: ['Ballroom', 'Meeting Room', 'Conference Hall', 'Exhibition Area', 'Banquet Hall', 'Lounge Area', 'Outdoor Terrace', 'Catering Kitchen', 'Reception Area', 'Auditorium', 'Stage'],
-// Add other building types and respective rooms as needed
 };
 
 // Function to populate room types based on building selection

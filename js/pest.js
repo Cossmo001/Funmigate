@@ -8,4 +8,4 @@ function changeText() {
     index = (index + 1) % words.length;
 }
 
-setInterval(changeText, 2000);
+setInterval(changeText, 3000);

@@ -1,5 +1,5 @@
 var colorizer = document.getElementById('colorizer');
-var word = ['Home', 'Office', 'Religious Center', 'Event Center']
+var word = ['Home ', 'Office ', 'Religious Center ', 'Event Center ']
 var indexx = 0;
 
 function changeeColor() {
@@ -8,4 +8,4 @@ function changeeColor() {
     indexx = (indexx + 1) % word.length;
 }
 
-setInterval(changeeColor, 2000);
+setInterval(changeeColor, 3000);
